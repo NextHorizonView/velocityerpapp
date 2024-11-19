@@ -1,0 +1,82 @@
+# React Native
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Android
+/android/.gradle/
+/android/app/build/
+/android/local.properties
+/android/*.iml
+/android/app/*.keystore
+/android/captures/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/app/src/debug/
+/android/app/src/release/
+/android/app/src/androidTest/
+/android/.idea/
+
+# iOS
+/ios/Pods/
+/ios/build/
+/ios/DerivedData/
+/ios/*.xcworkspace
+/ios/*.xcodeproj/project.xcworkspace/
+/ios/*.xcodeproj/xcuserdata/
+/ios/*.xcodeproj/project.xcsettings/
+/ios/*.xcodeproj/xcshareddata/
+/ios/*.xcuserstate
+
+# Metro bundler
+.expo/
+/.expo-shared/
+/web-build/
+*.expo
+
+# Testing
+coverage/
+*.test.js
+*.test.ts
+*.test.tsx
+/__tests__/
+
+# Build artifacts
+*.so
+*.apk
+*.ipa
+*.app
+*.xcarchive
+
+# Build caches
+/.vscode/
+/.idea/
+/build/
+/tmp/
+/out/
+
+# VSCode
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Logs and Debug
+*.log
+*.trace
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
