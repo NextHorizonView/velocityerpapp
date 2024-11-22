@@ -3,13 +3,41 @@
   "reactNativePath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native",
   "reactNativeVersion": "0.76",
   "dependencies": {
+    "react-native-gesture-handler": {
+      "root": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-gesture-handler",
+      "name": "react-native-gesture-handler",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "version": "2.21.2",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-gesture-handler/android",
+          "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
+          "packageInstance": "new RNGestureHandlerPackage()",
+          "buildTypes": [],
+          "libraryName": "rngesturehandler_codegen",
+          "componentDescriptors": [
+            "RNGestureHandlerButtonComponentDescriptor",
+            "RNGestureHandlerRootViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
     "react-native-reanimated": {
       "root": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-reanimated",
       "name": "react-native-reanimated",
       "platforms": {
         "ios": {
           "podspecPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-reanimated/RNReanimated.podspec",
-          "version": "3.16.1",
+          "version": "3.16.2",
           "configurations": [],
           "scriptPhases": []
         },
@@ -49,6 +77,123 @@
             "RNCSafeAreaViewComponentDescriptor"
           ],
           "cmakeListsPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-screens": {
+      "root": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-screens",
+      "name": "react-native-screens",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-screens/RNScreens.podspec",
+          "version": "4.3.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-screens/android",
+          "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
+          "packageInstance": "new RNScreensPackage()",
+          "buildTypes": [],
+          "libraryName": "rnscreens",
+          "componentDescriptors": [
+            "RNSFullWindowOverlayComponentDescriptor",
+            "RNSScreenContainerComponentDescriptor",
+            "RNSScreenNavigationContainerComponentDescriptor",
+            "RNSScreenStackHeaderConfigComponentDescriptor",
+            "RNSScreenStackHeaderSubviewComponentDescriptor",
+            "RNSScreenStackComponentDescriptor",
+            "RNSSearchBarComponentDescriptor",
+            "RNSScreenComponentDescriptor",
+            "RNSScreenFooterComponentDescriptor",
+            "RNSScreenContentWrapperComponentDescriptor",
+            "RNSModalScreenComponentDescriptor"
+          ],
+          "cmakeListsPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-svg": {
+      "root": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-svg",
+      "name": "react-native-svg",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-svg/RNSVG.podspec",
+          "version": "15.9.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-svg/android",
+          "packageImportPath": "import com.horcrux.svg.SvgPackage;",
+          "packageInstance": "new SvgPackage()",
+          "buildTypes": [],
+          "libraryName": "rnsvg",
+          "componentDescriptors": [
+            "RNSVGCircleComponentDescriptor",
+            "RNSVGClipPathComponentDescriptor",
+            "RNSVGDefsComponentDescriptor",
+            "RNSVGFeBlendComponentDescriptor",
+            "RNSVGFeColorMatrixComponentDescriptor",
+            "RNSVGFeCompositeComponentDescriptor",
+            "RNSVGFeFloodComponentDescriptor",
+            "RNSVGFeGaussianBlurComponentDescriptor",
+            "RNSVGFeMergeComponentDescriptor",
+            "RNSVGFeOffsetComponentDescriptor",
+            "RNSVGFilterComponentDescriptor",
+            "RNSVGEllipseComponentDescriptor",
+            "RNSVGForeignObjectComponentDescriptor",
+            "RNSVGGroupComponentDescriptor",
+            "RNSVGImageComponentDescriptor",
+            "RNSVGLinearGradientComponentDescriptor",
+            "RNSVGLineComponentDescriptor",
+            "RNSVGMarkerComponentDescriptor",
+            "RNSVGMaskComponentDescriptor",
+            "RNSVGPathComponentDescriptor",
+            "RNSVGPatternComponentDescriptor",
+            "RNSVGRadialGradientComponentDescriptor",
+            "RNSVGRectComponentDescriptor",
+            "RNSVGSvgViewAndroidComponentDescriptor",
+            "RNSVGSymbolComponentDescriptor",
+            "RNSVGTextComponentDescriptor",
+            "RNSVGTextPathComponentDescriptor",
+            "RNSVGTSpanComponentDescriptor",
+            "RNSVGUseComponentDescriptor"
+          ],
+          "cmakeListsPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-vector-icons": {
+      "root": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-vector-icons",
+      "name": "react-native-vector-icons",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "version": "10.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-vector-icons/android",
+          "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
+          "packageInstance": "new VectorIconsPackage()",
+          "buildTypes": [],
+          "libraryName": "RNVectorIconsSpec",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -507,6 +652,7 @@
         "path": ".",
         "isWorkspace": false
       },
+      "automaticPodsInstallation": false,
       "assets": []
     },
     "android": {

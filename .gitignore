@@ -18,12 +18,15 @@ yarn-error.log*
 /android/app/*.keystore
 /android/captures/
 /android/gradle/
-/android/gradlew
-/android/gradlew.bat
+/android/.idea/
 /android/app/src/debug/
 /android/app/src/release/
 /android/app/src/androidTest/
-/android/.idea/
+
+# Keep Gradle wrapper files
+!/android/gradlew
+!/android/gradlew.bat
+!/android/gradle/wrapper/gradle-wrapper.properties
 
 # iOS
 /ios/Pods/
