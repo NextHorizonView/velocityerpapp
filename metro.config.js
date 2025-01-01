@@ -4,9 +4,19 @@ const { wrapWithReanimatedMetroConfig } = require("react-native-reanimated/metro
 
 const defaultConfig = getDefaultConfig(__dirname);
 
-const config = mergeConfig(defaultConfig, {
-  /* your custom config */
-});
+// Define SVG support configuration
+const svgConfig = {
+  transformer: {
+    babelTransformerPath: require.resolve("react-native-svg-transformer"),
+  },
+  resolver: {
+    assetExts: defaultConfig.resolver.assetExts.filter((ext) => ext !== "svg"),
+    sourceExts: [...defaultConfig.resolver.sourceExts, "svg"],
+  },
+};
+
+// Merge configurations
+const config = mergeConfig(defaultConfig, svgConfig);
 
 module.exports = wrapWithReanimatedMetroConfig(
   withNativeWind(config, { input: "./global.css" })

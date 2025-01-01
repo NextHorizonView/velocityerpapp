@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { MotiText, AnimatePresence, MotiView } from "moti";
 import { Image } from "react-native";
-import AttendanceImg from "../../../assets/images/attendance.png";
-import TestImg from "../../../assets/images/test.png";
-import EventsImg from "../../../assets/images/events.png";
+import AttendanceImg from "../../assets/images/attendance.png";
+import TestImg from "../../assets/images/test.png";
+import EventsImg from "../../assets/images/events.png";
 import { NavigationProp } from '@react-navigation/native';
 import { StackNavigationProp } from "@react-navigation/stack";
 

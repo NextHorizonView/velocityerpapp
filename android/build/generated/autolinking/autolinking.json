@@ -127,7 +127,7 @@
       "platforms": {
         "ios": {
           "podspecPath": "/home/raj/Desktop/programming/react-native/velocityerpapp/node_modules/react-native-svg/RNSVG.podspec",
-          "version": "15.9.0",
+          "version": "15.10.1",
           "configurations": [],
           "scriptPhases": []
         },
@@ -410,8 +410,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "xterm-256color"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--binary-path <string>",
@@ -570,8 +569,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "xterm-256color"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--appId <string>",
